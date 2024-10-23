@@ -23,6 +23,9 @@ Instruções passo a passo para clonar o repositório e compilar o projeto. Por 
 - /src       # Código-fonte do jogo
 - /include   # Arquivos de cabeçalho
 
+# Licença:
+- Este projeto é licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
+
 # Equipe:
 - Caio Ferreira (cflo@cesar.school)
 - Davi Marques (dmo3@cesar.school)

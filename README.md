@@ -1,31 +1,20 @@
-# Skyfall-Blitz
+# cli-lib
+Command Line Interface library, for developing CLI applications and games in C. It has functions to access keyboard, screen and manage timing tasks.
 
-# Descrição:
-- Este é um jogo de plataforma desenvolvido em C utilizando a biblioteca 'cli-lib'. O objetivo do jogador é controlar uma plataforma e evitar círculos que caem aleatoriamente, ganhando pontos e passando para fases mais desafiadoras.
+## Requirements
+- This library works with the follwing OS:
+   - Linux based (Ubuntu, etc)
+   - MacOS
+- It is necessary to have GCC installed.
 
-# Requisitos:
-Lista dos pré-requisitos necessários para rodar o jogo, como:
-- Biblioteca 'cli-lib'
-- Compilador C (ex.: GCC)
-- Sistema operacional compatível (Linux, MacOS, Windows(Com WSL)
+## Usage 
+The file `main.c` has an example of how to use the Keyboard, Screen nd Timer functions. 
 
-# Instalação
-Instruções passo a passo para clonar o repositório e compilar o projeto.
-- git clone https://github.com/davimqz/Skyfall-Blitz.git
+To build this example via command line, just switch to library root directory and type the following command:
+```
+$ gcc ./src/*.c -I./include -o cli-lib-example
+```
 
-# Como Jogar:
-- Mover a Plataforma: W S A D
-- Objetivo do jogo: "Evite os círculos caindo e ganhe pontos."
-- Avançar de nível: "Alcance a quantidade de pontos necessária para passar de fase."
+To use this library to create your own apps, simply add source and header files to your project and compile it together with your own code, 
+replacing the main.c file to your own.
 
-# Estrutura do Projeto:
-- /src       # Código-fonte do jogo
-- /include   # Arquivos de cabeçalho
-
-# Licença:
-- Este projeto é licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
-
-# Equipe:
-- Caio Ferreira (cflo@cesar.school)
-- Davi Marques (dmo3@cesar.school)
-- Henrique Brito (hscb@cesar.school)

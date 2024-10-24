@@ -12,7 +12,7 @@ Lista dos pré-requisitos necessários para rodar o jogo, como:
 # Instalação
 Instruções passo a passo para clonar o repositório e compilar o projeto. Por exemplo:
 - git clone https://github.com/davimqz/Skyfall-Blitz.git
-- gcc ./src/*.c -I./include -o cli-lib-example
+
 
 # Como Jogar:
 - Mover a Plataforma: W S A D
